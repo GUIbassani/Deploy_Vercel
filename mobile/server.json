@@ -1,0 +1,54 @@
+{
+  "comercios": [
+    {
+      "id": "2",
+      "nome": "Padaria Central",
+      "responsavel": "João",
+      "cnpj": "12345678000199",
+      "email": "padaria@email.com",
+      "telefone": "32999999999",
+      "endereco": "Rua Central, 100"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Mercado Exemplo",
+      "email": "renato@email.com",
+      "senha": "123456",
+      "tipo": "comercio",
+      "comercioId": 1
+    }
+  ],
+  "alimentos": [
+    {
+      "id": "1",
+      "nome": "Arroz",
+      "categoria": "Grãos",
+      "quantidade": 10,
+      "unidade": "kg",
+      "validade": "2026-12-20"
+    }
+  ],
+  "doacoes": [
+    {
+      "id": "1",
+      "comercioId": 1,
+      "alimentoId": 1,
+      "quantidade": 5,
+      "status": "Disponível",
+      "data": "2026-11-11"
+    },
+    {
+      "comercioId": 1,
+      "titulo": "Bananas",
+      "descricao": "bananas verdes",
+      "quantidade": "10kg",
+      "validade": "15/11/26",
+      "status": "Disponível",
+      "dataCriacao": "2026-11-12T03:38:30.276Z",
+      "id": "TynLlQKjFDM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
