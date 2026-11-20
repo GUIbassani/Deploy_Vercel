@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs"; // Se o seu projeto usar bcryptjs, troque para "bcryptjs"
-import { Usuario, inicializarBanco } from "@/src/models/Index";
+import { Usuario, inicializarBanco } from "@/src/models";
 
 export async function GET() {
   try {

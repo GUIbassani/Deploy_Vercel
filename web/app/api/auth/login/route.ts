@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { Usuario, inicializarBanco } from "@/src/models/Index";
+import { Usuario, inicializarBanco } from "@/src/models";
 import { gerarToken } from "@/src/lib/auth";
 import bcrypt from "bcryptjs";
 

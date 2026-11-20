@@ -4,7 +4,7 @@ import {
     Doacao,
     Doador,
     inicializarBanco,
-} from "@/src/models/Index";
+} from "@/src/models";
 import { verificarToken } from "@/src/lib/auth";
 
 async function obterUsuarioAutenticado(request: Request) {

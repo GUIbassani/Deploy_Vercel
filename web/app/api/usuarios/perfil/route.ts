@@ -6,7 +6,7 @@ import {
     Usuario,
     Doador,
     inicializarBanco,
-} from "@/src/models/Index";
+} from "@/src/models";
 
 import { verificarToken } from "@/src/lib/auth";
 

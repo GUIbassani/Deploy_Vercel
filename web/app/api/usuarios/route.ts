@@ -5,7 +5,7 @@ import {
     Doador,
     sequelize,
     inicializarBanco,
-} from "@/src/models/Index";
+} from "@/src/models";
 import bcrypt from "bcryptjs";
 
 export async function GET() {

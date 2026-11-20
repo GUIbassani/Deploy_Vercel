@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
-import { Instituicao, inicializarBanco } from "@/src/models/Index";
+import { Instituicao, inicializarBanco } from "@/src/models";
 import { verificarToken } from "@/src/lib/auth";
 
 type Params = {

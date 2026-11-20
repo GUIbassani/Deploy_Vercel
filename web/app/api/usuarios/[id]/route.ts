@@ -1,7 +1,7 @@
 
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
-import { Usuario, sequelize, inicializarBanco } from "@/src/models/Index";
+import { Usuario, sequelize, inicializarBanco } from "@/src/models";
 import { TipoUsuario } from "@/src/models/Usuario";
 import { verificarToken } from "@/src/lib/auth";
 import bcrypt from "bcryptjs";
