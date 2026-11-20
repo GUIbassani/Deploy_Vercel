@@ -1,13 +1,21 @@
 import { Sequelize } from "sequelize";
-import path from "node:path";
+import pg from "pg";
 
-const sequelize = new Sequelize({
-  dialect: "sqlite",
-  storage: path.join(
-    process.cwd(),
-    "database",
-    "reaproveita.db"
-  ),
+const databaseUrl = process.env.DATABASE_URL;
+
+if (!databaseUrl) {
+  throw new Error("A variável de ambiente DATABASE_URL não está definida.");
+}
+
+const sequelize = new Sequelize(databaseUrl, {
+  dialect: "postgres",
+  dialectModule: pg,
+  dialectOptions: {
+    ssl: {
+      require: true,
+      rejectUnauthorized: false,
+    },
+  },
   logging: false,
 });
 
