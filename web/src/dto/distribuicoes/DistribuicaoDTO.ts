@@ -1,5 +1,5 @@
 
-import { DoacaoResponseDTO } from "../doacao/DoacaoDTO";
+import { DoacaoResponseDTO } from "../Doacao/DoacaoDTO";
 import { InstituicaoResponseDTO } from "../instituicao/InstituicaoDTO";
 
 export type StatusDistribuicao =

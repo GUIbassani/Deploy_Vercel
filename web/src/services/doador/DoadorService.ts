@@ -3,7 +3,7 @@ import {
   CreateDoadorDTO,
   DoadorResponseDTO,
   UpdateDoadorDTO,
-} from "../../dto/doador/DoadorDTO";
+} from "../../dto/Doador/DoadorDTO";
 
 const BASE_URL = "/api/doadores";
 

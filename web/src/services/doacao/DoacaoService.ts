@@ -3,7 +3,7 @@ import {
   CreateDoacaoDTO,
   DoacaoResponseDTO,
   UpdateDoacaoDTO,
-} from "../../dto/doacao/DoacaoDTO";
+} from "../../dto/Doacao/DoacaoDTO";
 
 const BASE_URL = "/api/doacao";
 

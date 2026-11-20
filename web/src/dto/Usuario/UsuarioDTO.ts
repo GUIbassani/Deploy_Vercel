@@ -1,5 +1,5 @@
 
-import { DoadorResponseDTO } from "../doador/DoadorDTO";
+import { DoadorResponseDTO } from "../Doador/DoadorDTO";
 
 export interface UsuarioResponseDTO {
   id: number;

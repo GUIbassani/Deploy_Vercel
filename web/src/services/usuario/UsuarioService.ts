@@ -3,7 +3,7 @@ import {
   CreateUsuarioDTO,
   UpdateUsuarioDTO,
   CadastroUsuarioResponseDTO,
-} from "../../dto/usuario/UsuarioDTO";
+} from "../../dto/Usuario/UsuarioDTO";
 
 const BASE_URL = "/api/usuarios";
 
