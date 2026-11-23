@@ -1,4 +1,4 @@
-export const API_URL = "http://192.168.2.109:3000/api";
+export const API_URL = "http://52.55.186.135:3000/api";
 
 function montarHeaders(token?: string): Record<string, string> {
   return {
